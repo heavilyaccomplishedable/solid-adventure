@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #f0f0f0;
+}
+
+#graphic {
+  width: 150px;
+  height: 150px;
+  background-color: #4CAF50;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+#graphic.expanded {
+  transform: scale(1.5);
+}
