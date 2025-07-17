@@ -10,8 +10,8 @@ body {
 #graphic {
   width: 150px;
   height: auto;
-  transition: transform 0.3s ease;
   cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 #graphic.expanded {
